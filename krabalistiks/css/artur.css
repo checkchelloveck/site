@@ -1,0 +1,91 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+   color:aquamarine;
+background-color: black;
+}
+
+/* ПЕРВЫЙ БЛОК С ГЛАЗОМ */
+
+.fon{
+   margin: 0 auto;
+   height: 320px;
+   width: 850px;
+   background: url('../img/f8bc087cd23a11d6eb75507b66a38837.gif');
+
+}
+
+.fon:hover{
+   box-shadow:6px 5px 11px yellow,13px 7px 4px 4px green;
+}
+
+
+.fontwo{
+  color:green;
+   margin: 0 auto;
+   height: 320px;
+
+   width: 1000px;
+   background: url('../img/75d4eebb74bd12b0a8f07ba23ee14f54.thumb.gif.ff73ffc70000fc8d643d9169976c97ea.gif');
+}
+
+.fontwo:hover{
+   color:rgb(45, 26, 138);
+   margin: 0 auto;
+   height: 420px;
+opacity: 0.6;
+   width: 1000px;
+   box-shadow: 12px 10px 12px  red;
+}
+
+.textlist li{
+font-size: 46px;
+margin: 0px 0px 20px 0px ;
+}
+.textlist li:before{
+   content: '';
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   background-color:green;
+   display: inline-block;
+   margin: 0px 10px 0px 0px ;
+}
+
